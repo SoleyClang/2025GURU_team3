@@ -6,6 +6,6 @@ data class Routine(
     val title: String,
     val description: String,
     var isChecked: Boolean,
-    val point: Int
+    val point: Int = 10
 )
 

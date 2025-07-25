@@ -3,6 +3,7 @@ package com.example.habit
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
@@ -13,14 +14,14 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.btnHealth).setOnClickListener {
             openRoutineScreen(ThemeType.HEALTH)
         }
-
         findViewById<Button>(R.id.btnSelfDev).setOnClickListener {
             openRoutineScreen(ThemeType.SELF_DEV)
         }
-
         findViewById<Button>(R.id.btnLifestyle).setOnClickListener {
             openRoutineScreen(ThemeType.LIFESTYLE)
         }
+
+
     }
 
     private fun openRoutineScreen(theme: ThemeType) {
