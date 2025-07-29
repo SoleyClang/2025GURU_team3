@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 기본 색상 -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="textDark">#222222</color>
+    <color name="semi_white">#80FFFFFF</color>
+
+    <!-- 배경 색상 -->
+    <color name="bgLight">#F4F4F4</color>
+    <color name="gray_background">#F9F9F9</color>
+
+    <!-- 프라이머리 색상 -->
+    <color name="primary">#4CAF50</color>
+    <color name="primaryDark">#388E3C</color>
+
+    <!-- 머티리얼 퍼플 -->
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+
+    <!-- 커스텀 보라 포인트 -->
+    <color name="point_purple">#5D2EFF</color>
+
+    <!-- 파란 계열 -->
+    <color name="blue_100">#E3F2FD</color>     <!-- 눌림 배경 -->
+    <color name="blue_500">#1976D2</color>     <!-- 기본 테두리 -->
+    <color name="blue_700">#1565C0</color>     <!-- 진한 눌림 테두리 -->
+</resources>

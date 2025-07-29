@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <!-- 칭호 텍스트 -->
+    <TextView
+        android:id="@+id/textTotalTitle"
+        android:text="🏆 현재 칭호:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- 누적 포인트 텍스트 -->
+    <TextView
+        android:id="@+id/textTotalPoint"
+        android:text="누적 포인트:"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_purple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp" />
+
+    <!-- ✅ 포인트 초기화 버튼 -->
+    <Button
+        android:id="@+id/btnResetPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="포인트 초기화"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:background="@drawable/bg_rounded_button"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="10dp" />
+</LinearLayout>

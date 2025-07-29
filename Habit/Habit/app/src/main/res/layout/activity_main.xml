@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:padding="80dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp">
+
+        <!-- 앱 로고 -->
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="24dp"
+            android:src="@drawable/logo"
+            android:contentDescription="앱 로고" />
+
+        <!-- 반투명 카드 박스 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:padding="24dp"
+            android:orientation="vertical"
+            android:background="@drawable/bg_theme_card"
+            android:elevation="4dp"
+            android:gravity="center_horizontal">
+
+            <!-- 건강 루틴 버튼 -->
+            <Button
+                android:id="@+id/btnHealth"
+                style="@style/AppButton.Primary"
+                android:text="건강 루틴"
+                android:textColor="@color/blue_500"
+                android:background="@drawable/bg_rounded_button"
+                android:layout_marginBottom="16dp" />
+
+            <!-- 자기개발 루틴 버튼 -->
+            <Button
+                android:id="@+id/btnSelfDev"
+                style="@style/AppButton.Primary"
+                android:text="자기개발 루틴"
+                android:textColor="@color/blue_500"
+                android:background="@drawable/bg_rounded_button"
+                android:layout_marginBottom="16dp" />
+
+            <!-- 생활습관 루틴 버튼 -->
+            <Button
+                android:id="@+id/btnLifestyle"
+                style="@style/AppButton.Primary"
+                android:text="생활습관 루틴"
+                android:textColor="@color/blue_500"
+                android:background="@drawable/bg_rounded_button"
+                android:layout_marginBottom="24dp" />
+
+            <!-- ✅ 누적 포인트 확인 버튼 -->
+            <Button
+                android:id="@+id/btnTotalPoint"
+                style="@style/AppButton.Primary"
+                android:text="누적 포인트 확인"
+                android:textColor="@color/point_purple"
+                android:background="@drawable/bg_rounded_button"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
